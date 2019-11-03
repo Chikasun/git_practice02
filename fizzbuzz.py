@@ -1,6 +1,7 @@
+
 def fizzbuzz_convert(number):
     pass
-    if number % 5 == 0:
+    if number % 15 == 0:
         return 'FizzBuzz'
     if number % 3 == 0:
         return "Fizz"
@@ -9,3 +10,5 @@ def fizzbuzz_convert(number):
 
 
 assert fizzbuzz_convert(3) == 'Fizz'
+assert fizzbuzz_convert(5) == 'Buzz'
+assert fizzbuzz_convert(15) == "FizzBuzz"
